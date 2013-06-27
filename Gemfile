@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '1.9.3'
+ruby '2.0.0'
 
 gem 'rails', '3.2.13'
 gem 'bootstrap-sass', '2.1'
@@ -31,9 +31,9 @@ group :test do
   gem 'factory_girl_rails', '4.1.0'
   gem 'cucumber-rails', '1.2.1', :require => false
   gem 'database_cleaner', '0.7.0'
-  # gem 'launchy', '2.1.0'
-  # gem 'rb-fsevent', '0.9.1', :require => false
-  # gem 'growl', '1.0.3'
+  gem 'launchy', '2.1.0'
+  gem 'rb-fsevent', '0.9.3', :require => false
+  gem 'growl', '1.0.3'
 end
 
 group :production do
