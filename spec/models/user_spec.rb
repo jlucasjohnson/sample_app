@@ -24,8 +24,8 @@ describe User do
   describe "accesible attributes" do
     it "should not allow access to admin" do
       expect do
-        USer.new(admin: "1")
-      end.should raise_error(ActiveModel::MassAssignmentSecurity::Error)
+        User.new(admin: "1")
+      end.to raise_error(ActiveModel::MassAssignmentSecurity::Error)
     end
   end
 
