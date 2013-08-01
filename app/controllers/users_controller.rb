@@ -21,7 +21,7 @@
     @user = User.new(params[:user])
     if @user.save
       sign_in @user
-      flash[:success] = "Welcome to Bripinion or whatever"
+      flash[:success] = "Woooooooo bet you #THIRSTY!!"
       redirect_to @user
     else
       render 'new'
